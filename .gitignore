@@ -1,0 +1,75 @@
+# Dependency directories
+*/node_modules/
+npm-debug.log
+yarn-error.log
+
+# Optional npm cache directory
+.npm
+
+# Environment variables file
+**/.env
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+/build/
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+
+
+
+# Maven target directory
+/target/
+
+# Maven IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Spring Boot log files
+logs/
+
+# IDE files
+.classpath
+.project
+.settings/
+
+# Compiled class files
+*.class
+
+# Dependency lock files
+*.lock
+
+# Generated files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.tar.bz2
+*.tar
+*.gz
+
+# Generated coverage reports
+*.gcda
+*.gcno
+*.gcov
+
+# Temporary files
+*.log*
+*~
