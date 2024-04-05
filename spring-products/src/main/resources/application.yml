@@ -1,0 +1,19 @@
+server:
+  port: 8080
+app:
+  main:
+
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    jdbc-url: jdbc:postgresql://localhost:5433/testing_migra?schema=public
+    password: 'massa'
+    pool-size: 30
+    username: postgres
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+  main:
+    web-application-type: servlet
